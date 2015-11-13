@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(106, 106, 106);
+}
+*{
+    font-family: 'Lato', sans-serif;
+    color: rgb(204, 136, 0);
+}
+
+.container{
+    width: 800px;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: rgba(58,58,58,1);
+    padding: 40px;
+    line-height: 1.4;
+    border: 2px solid rgba(58,58,58,5);
+    box-shadow: 0 0 4px 2px rgba(255,163,39,0.2);
+    overflow-y: auto;
+    font-size: 1em;
+}
+
+.container .img{
+    width: 100%;
+    height: 200px;
+    background: rgba(255,163,39,0.2);
+}
+
+.container h2{
+    margin-top: 0;
+}
+
+.container .pre-text{
+    font-size: .9em;
+    color: rgb(128, 127, 127);
+}
+
+.container .item-container{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.container .item-container:last-child{
+    margin-bottom: 0;
+}
+
+.container .item-container article{
+    padding: 200px;
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container .item-container .header-wraper{
+    left: -40px;
+    width: calc(100% + 80px);
+    position: relative;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.container .item-container .header-wraper header{
+    width: 100%;
+    position: absolute;
+    background: rgb(46, 46, 46);
+}
+
+.container .item-container .header-wraper header.header-fixer{
+    position: fixed;
+    top: 0;
+}
+
+.container .item-container .header-wraper header h4{
+    margin: 0;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: rgb(255, 170, 0);
+    padding: 5px 0;
+}
