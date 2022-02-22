@@ -1,3 +1,5 @@
+debugger
+
 function adjustTableHeader(element) {
     //add tweaks here.
     var width = element.closest('.container').outerWidth();
