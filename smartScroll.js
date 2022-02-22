@@ -1,11 +1,11 @@
-debugger
-
 function adjustTableHeader(element) {
     //add tweaks here.
     var width = element.closest('.container').outerWidth();
     var left = element.closest('.container').offset().left;
     element.width(width);
     element.css('left', left);
+
+    console.log(element);
 }
 
 $('.container').bind("scroll", function () {
